@@ -1,0 +1,107 @@
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6; /* Cor de fundo temática de amor */
+  }
+
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .navbar {
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .navbar-brand {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  /* Estilos para as seções */
+  section {
+    padding: 60px 0;
+  }
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+
+  /* Estilos para as fotos */
+  .card {
+    border: none;
+    transition: transform 0.3s;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-img-top {
+    height: 500px;
+    object-fit: cover;
+  }
+
+  .card-title {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  /* Estilos para o vídeo personalizado */
+  .embed-responsive {
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* Estilos para a lista de reprodução */
+  .card-text {
+    margin-bottom: 10px;
+  }
+
+  /* Estilos para a seção interativa */
+  .card {
+    border: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-title {
+    margin-top: 20px;
+  }
+
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    font-size: 14px;
+  }
+
+  /* Estilos para o pop-up */
+  #response-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
